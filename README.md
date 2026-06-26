@@ -27,6 +27,9 @@
 - Оценка через ROC-AUC на pairwise distance
 
 ## Результаты
+- Проведён подбор гиперпараметров (learning rate, weight decay) с использованием grid search.
+- Использованы техники hard triplet mining и MPerClassSampler для стабилизации обучения metric learning модели.
+- Оценка качества выполнялась по метрике ROC-AUC на попарных расстояниях эмбеддингов.
 - __ROC-AUC = 0.99__
 
 ## Стек технологий
